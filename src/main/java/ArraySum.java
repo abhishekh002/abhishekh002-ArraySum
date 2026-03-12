@@ -7,7 +7,18 @@ public class ArraySum {
      * @return the sum of all values in arr.
      */
     public int sum(int[] arr){
+        // Step 1: Initialize an accumulator variable
+        int total = 0;
 
-        return 0;
+        // Step 2: Loop through every index of the array
+        for (int i = 0; i < arr.length; i++) {
+            // Step 3: Add the current element to our running total
+            total += arr[i];
+        }
+
+        // Step 4: Return the final calculation
+        return total;
+
+       
     }
 }
